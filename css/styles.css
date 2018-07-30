@@ -1,0 +1,51 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: url('../images/outside 2.jpg');
+    background-size: cover;
+    }
+
+nav{
+    height: 50px;
+  }
+
+header{
+      background-color: white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      }
+
+p{
+  font-family: 'Buenard', serif;
+  font-size: 30px;
+  flex: 1 0 auto;
+  font-style: bold;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 10px;
+  top: 50%;
+  }
+
+img{
+    flex: 0 1;
+    height: 30px;
+    width: 100px;
+  }
+
+main{
+    color: white;
+    }
+
+.centered{
+        position: absolute;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 90px;
+        top: 50%;
+        color: white;
+        font-size: 450%;
+        }
